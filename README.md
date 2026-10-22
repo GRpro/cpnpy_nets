@@ -1,6 +1,6 @@
 # Petri net examples
 
-Two nets built with cpnpy. Each one has a state-space check and a Streamlit page.
+Two nets built with cpnpy. Each net has a state-space check and a Streamlit page. Plus the library Streamlit demo in `demo_net/`.
 
 ## Dining philosophers
 
@@ -92,3 +92,12 @@ venv/bin/streamlit run radio_beacon/visualize.py
 ```
 
 The page starts with both radios in `Sleep`. Radio A boots at 0 with offset 3. Radio B boots at 50 with offset 7. Fire the enabled transition. A radio moves into `Rx` for a listen and into `Tx` to send. `EndTx` or `EndRx` moves it on. `Message` gains one hop, `txNode` to `rxNode`, when `Receive` fires.
+
+## Library demo
+
+`demo_net/streamlit_demo.py` is the cpnpy visualizer example. It shows integer, string, boolean, record, and list tokens, with timed and untimed transitions.
+
+```bash
+venv/bin/streamlit run demo_net/streamlit_demo.py
+```
+

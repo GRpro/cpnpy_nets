@@ -1,3 +1,6 @@
 cpnpy @ git+https://github.com/GRpro/cpn-py.git@add_features
+# Local checkout. Comment out the Git line above and uncomment the next line
+# so only one cpnpy source is active:
+# -e /Users/grygorii/Documents/Projects/cpn-py
 networkx
 streamlit
