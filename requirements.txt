@@ -1,0 +1,3 @@
+cpnpy @ git+https://github.com/GRpro/cpn-py.git@add_features
+networkx
+streamlit
